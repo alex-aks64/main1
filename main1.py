@@ -1,6 +1,7 @@
-def test1(a,b,c):
-    print(a,b,c)
-d = [2,'hi',True]
+def test1(a):
+    print(a)
+    print(a)
+d = ['hi']
 test1(*d)
 
 
@@ -29,3 +30,11 @@ print('Убрали элемент', stack)
 stack.pop()
 print('Убрали элемент', stack)
 
+def sum(n):
+    if n != 0:
+        return n + sum(n-1)
+    else:
+        return 0
+
+
+print(sum(6))
