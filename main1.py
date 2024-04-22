@@ -1,8 +1,8 @@
 def test1(a):
     print(a)
     print(a)
-d = ['hi']
-test1(*d)
+d = ('hi')
+test1(d)
 
 
 def recursion():
